@@ -149,3 +149,22 @@ Data_Frame4 <- data.frame (
 
 New_Data_Frame1 <- cbind(Data_Frame3, Data_Frame4)
 New_Data_Frame1
+
+#Exercise 1: Celsius → Fahrenheit
+De2F <- function(de) {
+  fa <- (de * 9/5)+32
+  return(fa)
+}
+
+print(De2F(25))
+
+calBMI <- function(weight, height) {
+  bmi <- weight/(height^2)
+  return(bmi)
+}
+
+calBMI(72.5,1.73)
+
+CIC <- function(prin) {
+  
+}
